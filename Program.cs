@@ -11,8 +11,12 @@ namespace EmpWageUsingOops
        
         static void Main(string[] args)
         {
-            EmpUsingSepareteClass Obj= new EmpUsingSepareteClass();
-            Obj.HrsPerMonth();
+            SaveTotalWageByCompany tcs = new SaveTotalWageByCompany("tcs",20,10,15);
+            tcs.ComputeEmpWage();
+            Console.WriteLine(tcs.ToString());
+            SaveTotalWageByCompany Cognizent = new SaveTotalWageByCompany("cognizent",20,8,17);
+            Cognizent.ComputeEmpWage();
+            Console.WriteLine(Cognizent.ToString());
 
 
         }
