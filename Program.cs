@@ -11,8 +11,8 @@ namespace EmpWageUsingOops
        
         static void Main(string[] args)
         {
-            EmpUsingSepareteClass Obj= new EmpUsingSepareteClass();
-            Obj.HrsPerMonth();
+            EmpWageUsingClassAndMethod Obj = new EmpWageUsingClassAndMethod();
+            Obj.accessValue(20,20,10);
 
 
         }
