@@ -11,8 +11,10 @@ namespace EmpWageUsingOops
        
         static void Main(string[] args)
         {
-            EmpWageUsingClassAndMethod Obj = new EmpWageUsingClassAndMethod();
-            Obj.accessValue(20,20,10);
+            EmpWageForMultiCompany Comp1 = new EmpWageForMultiCompany();
+            Comp1.ComputeEmp("Cognizent",20,20,20);
+            EmpWageForMultiCompany Comp2 = new EmpWageForMultiCompany();
+            Comp2.ComputeEmp("AngularMind", 10, 15, 10);
 
 
         }
